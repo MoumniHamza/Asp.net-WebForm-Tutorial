@@ -7,36 +7,37 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Events_in_the_life_cycle_of_a_web_application {
+namespace TextBox_Control.Account {
     
     
-    public partial class WebForm1 {
+    public partial class Confirm {
         
         /// <summary>
-        /// form1 control.
+        /// successPanel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.WebControls.PlaceHolder successPanel;
         
         /// <summary>
-        /// Button1 control.
+        /// login control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Button1;
+        protected global::System.Web.UI.WebControls.HyperLink login;
         
         /// <summary>
-        /// TextBox1 control.
+        /// errorPanel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+        protected global::System.Web.UI.WebControls.PlaceHolder errorPanel;
+
     }
 }
